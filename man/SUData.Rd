@@ -18,4 +18,3 @@ These are the columns and their meanings
 }
 \keyword{SU}
 \keyword{data}
-

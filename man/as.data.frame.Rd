@@ -43,4 +43,3 @@ Dys <- new.pim.env(DysData)
 str(as.data.frame(Dys))
 
 }
-

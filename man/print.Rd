@@ -5,8 +5,8 @@
 \alias{print}
 \alias{print,pim-method}
 \alias{print,pim.environment-method}
-\alias{print,pim.formula-method}
 \alias{print,pim.poset-method}
+\alias{print,pim.formula-method}
 \title{Print methods for the different object types}
 \usage{
 print(x, ...)
@@ -50,4 +50,3 @@ print(penv(Model))
 # You get the drift
 
 }
-

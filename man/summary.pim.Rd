@@ -2,9 +2,9 @@
 % Please edit documentation in R/summary.R
 \docType{methods}
 \name{summary.pim}
+\alias{summary.pim}
 \alias{summary}
 \alias{summary,pim-method}
-\alias{summary.pim}
 \title{The summary function for the pim class}
 \usage{
 summary(object, ...)
@@ -32,4 +32,3 @@ Model <- pim(FEV~ Age + Smoke*Sex , data=FEVData)
 summary(Model)
 
 }
-

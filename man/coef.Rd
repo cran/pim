@@ -33,4 +33,3 @@ summ <- summary(Model)
 coef(summ)
 
 }
-

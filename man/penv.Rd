@@ -3,8 +3,8 @@
 \docType{methods}
 \name{penv}
 \alias{penv}
-\alias{penv,pim-method}
 \alias{penv,pim.formula-method}
+\alias{penv,pim-method}
 \title{Extract a pim environment from a model or formula}
 \usage{
 penv(x)
@@ -49,4 +49,3 @@ ls(thePEnv)
 # the variables in the formula, contrary to the environment created
 # by new.pim.formula
 }
-

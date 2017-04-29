@@ -2,11 +2,11 @@
 % Please edit documentation in R/confint.pim.R
 \docType{methods}
 \name{confint.pim}
+\alias{confint.pim}
+\alias{confint.pim.summary}
 \alias{confint}
 \alias{confint,pim-method}
 \alias{confint,pim.summary-method}
-\alias{confint.pim}
-\alias{confint.pim.summary}
 \title{Calculate Wald confidence intervals around the coefficients of a PIM}
 \usage{
 confint(object, parm, level = 0.95, ...)
@@ -29,4 +29,3 @@ If missing, all parameters are considered}
 This function returns Wald confidence intervals around the 
 coefficients of a fitted \code{\link{pim}} object
 }
-

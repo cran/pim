@@ -5,9 +5,9 @@
 \alias{has.intercept}
 \alias{has.intercept,character-method}
 \alias{has.intercept,formula-method}
-\alias{has.intercept,pim-method}
-\alias{has.intercept,pim.formula-method}
 \alias{has.intercept,terms-method}
+\alias{has.intercept,pim.formula-method}
+\alias{has.intercept,pim-method}
 \title{Check whether formula has an explicit intercept}
 \usage{
 has.intercept(x)
@@ -52,6 +52,7 @@ that is used in the context of a marginal model. Keep in mind that when
 specifying \code{model = 'marginal'} in a call to \code{pim}, the model
 will contain an intercept regardless of the outcome of \code{has.intercept}
 }
+
 \examples{
 data("FEVData")
 # Create the "model frame"
@@ -66,4 +67,3 @@ FEVform2 <- new.pim.formula(Age ~ Height + 1, FEVData)
 has.intercept(FEVform2)
 
 }
-

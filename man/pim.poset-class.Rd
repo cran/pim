@@ -2,8 +2,8 @@
 % Please edit documentation in R/pim.poset-class.R
 \docType{class}
 \name{pim.poset-class}
-\alias{pim.poset}
 \alias{pim.poset-class}
+\alias{pim.poset}
 \title{The pim.poset class}
 \description{
 The pim.poset class is an S4 class that inherits from \code{\link{environment}}
@@ -22,6 +22,7 @@ take the values "unique", "all" and "custom".}
 \item{\code{nobs}}{an integer value describing the number of observations 
 for which this poset is meant to be used.}
 }}
+
 \section{Note}{
 
 The pim.poset class doesn't really make sense to be used on itself.

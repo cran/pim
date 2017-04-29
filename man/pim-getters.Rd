@@ -2,11 +2,11 @@
 % Please edit documentation in R/Getters_pim.R
 \docType{methods}
 \name{pim-getters}
+\alias{pim-getters}
+\alias{keep.data}
+\alias{getters-pim}
 \alias{fitted}
 \alias{fitted,pim-method}
-\alias{getters-pim}
-\alias{keep.data}
-\alias{pim-getters}
 \title{Getters for slots of a pim object}
 \usage{
 keep.data(x)
@@ -40,4 +40,3 @@ keep.data(themodel)
 fitted(themodel)
 
 }
-

@@ -2,10 +2,10 @@
 % Please edit documentation in R/as.matrix.pim.summary.R
 \docType{methods}
 \name{as.matrix.pim.summary}
-\alias{as.matrix}
-\alias{as.matrix,pim-method}
-\alias{as.matrix,pim.summary-method}
 \alias{as.matrix.pim.summary}
+\alias{as.matrix}
+\alias{as.matrix,pim.summary-method}
+\alias{as.matrix,pim-method}
 \title{Convert a pim.summary object to a matrix}
 \usage{
 as.matrix(x, ...)
@@ -28,4 +28,3 @@ probability for every coefficient.
 This function converts a summary object to a matrix so values can be
 extracted from it.
 }
-

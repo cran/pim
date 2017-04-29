@@ -3,19 +3,22 @@
 \docType{methods}
 \name{classes}
 \alias{classes}
+\alias{names}
+\alias{compare}
+\alias{model}
+\alias{link}
 \alias{classes,pim.environment-method}
+\alias{names,pim.environment-method}
+\alias{names,pim.poset-method}
 \alias{compare}
 \alias{compare,pim.environment-method}
 \alias{compare,pim.poset-method}
-\alias{link}
-\alias{link,pim-method}
-\alias{link,pim.summary-method}
 \alias{model}
 \alias{model,pim-method}
 \alias{model,pim.summary-method}
-\alias{names}
-\alias{names,pim.environment-method}
-\alias{names,pim.poset-method}
+\alias{link}
+\alias{link,pim-method}
+\alias{link,pim.summary-method}
 \title{Extract information from pim.environment and pim.poset objects}
 \usage{
 classes(x)
@@ -92,4 +95,3 @@ model(thesummary)
 \code{\link{pim.environment-class}}, \code{\link{pim.poset-class}}, 
 \code{\link{pim-class}}, \code{\link{pim.summary-class}}
 }
-

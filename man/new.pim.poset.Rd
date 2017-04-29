@@ -4,10 +4,10 @@
 \name{new.pim.poset}
 \alias{new.pim.poset}
 \alias{new.pim.poset,character,numeric-method}
-\alias{new.pim.poset,list,missing-method}
+\alias{new.pim.poset,matrix,numeric-method}
 \alias{new.pim.poset,list,numeric-method}
 \alias{new.pim.poset,matrix,missing-method}
-\alias{new.pim.poset,matrix,numeric-method}
+\alias{new.pim.poset,list,missing-method}
 \alias{new.pim.poset,missing,numeric-method}
 \title{Create a pim.poset environment}
 \usage{
@@ -105,6 +105,7 @@ Changing the value of \code{comp.value} by hand might result in
 errors or a wrongly fitted model. The argument exists for internal
 purposes and possible extensions later on, but should not be used.
 }
+
 \examples{
 mypos <- new.pim.poset('unique',n=10) # creates empty environment
 ls(mypos)
@@ -119,4 +120,3 @@ mypos$R(1:10)
 \code{\link{add.poset}} for more information on how to
 adapt the poset of a \code{pim.environment} object.
 }
-

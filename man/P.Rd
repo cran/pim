@@ -3,6 +3,7 @@
 \name{P}
 \alias{P}
 \alias{PO}
+\alias{PO}
 \title{Probability function}
 \usage{
 P(x)
@@ -41,4 +42,3 @@ The function \code{PO} is just short for \code{P(x < y) + 0.5*P(x == y)}
 \code{\link{pim}} and \code{\link{pim.formula}} for more information
 on how this is used inside a pim context.
 }
-

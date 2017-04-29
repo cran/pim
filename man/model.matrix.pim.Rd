@@ -2,11 +2,11 @@
 % Please edit documentation in R/model.matrix.pim.R
 \docType{methods}
 \name{model.matrix.pim}
+\alias{model.matrix.pim}
 \alias{model.matrix}
+\alias{model.matrix.pim.formula}
 \alias{model.matrix,pim-method}
 \alias{model.matrix,pim.formula-method}
-\alias{model.matrix.pim}
-\alias{model.matrix.pim.formula}
 \title{Create a model matrix for a probabilistic index model}
 \usage{
 model.matrix(object, ...)
@@ -63,4 +63,3 @@ Y <- response(FEVform)
 res <- pim.fit(MM,Y, estim = "estimator.glm", penv=FEVenv)
 
 }
-

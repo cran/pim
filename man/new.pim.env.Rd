@@ -3,11 +3,11 @@
 \docType{methods}
 \name{new.pim.env}
 \alias{new.pim.env}
-\alias{new.pim.env,ANY-method}
-\alias{new.pim.env,data.frame-method}
+\alias{new.pim.env,missing-method}
 \alias{new.pim.env,environment-method}
 \alias{new.pim.env,list-method}
-\alias{new.pim.env,missing-method}
+\alias{new.pim.env,data.frame-method}
+\alias{new.pim.env,ANY-method}
 \title{Constructor for a pim.environment}
 \usage{
 new.pim.env(data, ...)
@@ -86,4 +86,3 @@ ls(env4)
 
 
 }
-

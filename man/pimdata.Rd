@@ -23,4 +23,3 @@ The data contained in the package has following structures
 \keyword{FEVData}
 \keyword{data}
 \keyword{pim}
-

@@ -3,8 +3,8 @@
 \docType{methods}
 \name{response}
 \alias{response}
-\alias{response,pim-method}
 \alias{response,pim.formula-method}
+\alias{response,pim-method}
 \title{Extract response from a pim.formula or a pim object}
 \usage{
 response(object)
@@ -43,4 +43,3 @@ for more information on the classes, and \code{\link{pim}},
 \code{\link{pim.fit}} and \code{\link{pim.formula}} for more
  information on related functions.
 }
-

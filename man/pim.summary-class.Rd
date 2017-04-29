@@ -2,8 +2,8 @@
 % Please edit documentation in R/pim.summary-class.R
 \docType{class}
 \name{pim.summary-class}
-\alias{pim.summary}
 \alias{pim.summary-class}
+\alias{pim.summary}
 \title{Class pim.summary}
 \description{
 This class contains the summary information from a probabilistic index
@@ -38,8 +38,8 @@ coefficients.}
 \item{\code{h0}}{a numeric value or a numeric vector containing
 the null hypothesis. See the argument at \code{\link{summary.pim}}}
 }}
+
 \seealso{
 \code{\link{pim}} for more info on how to construct the model
 and \code{\link{summary.pim}} for the constructor.
 }
-

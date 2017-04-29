@@ -109,6 +109,7 @@ if the value of the dependent variable for the observation
 from the L-poset is smaller than, 0 if it is larger than and 0.5 if
 it is equal to the value for value from the R-poset (see also \code{\link{PO}})
 }
+
 \examples{
 data('FEVData')
 # The most basic way to use the function
@@ -171,4 +172,3 @@ itself,  \code{\link{pim-getters}}, \code{\link{coef}}, \code{\link{confint}},
 variance-covariance matrix, ...,
 \code{\link{summary}} for some tests on the coefficients.
 }
-

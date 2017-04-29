@@ -3,11 +3,11 @@
 \docType{methods}
 \name{poset}
 \alias{poset}
+\alias{poset,pim.environment-method}
+\alias{poset,pim.poset-method}
 \alias{poset,environment-method}
 \alias{poset,pim-method}
-\alias{poset,pim.environment-method}
 \alias{poset,pim.formula-method}
-\alias{poset,pim.poset-method}
 \title{Extract the poset as a matrix or list}
 \usage{
 poset(x, ...)
@@ -57,4 +57,3 @@ DysPimEnv <- new.pim.env(DysData)
 poset(DysPimEnv)
 
 }
-

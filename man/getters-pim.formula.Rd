@@ -3,13 +3,13 @@
 \docType{methods}
 \name{has.specials}
 \alias{has.specials}
-\alias{has.specials,pim.formula-method}
-\alias{lhs}
 \alias{lhs,}
-\alias{lhs,pim.formula-method}
-\alias{terms}
 \alias{terms,}
+\alias{has.specials,pim.formula-method}
+\alias{terms}
 \alias{terms,pim.formula-method}
+\alias{lhs}
+\alias{lhs,pim.formula-method}
 \title{Extract information from a pim.formula object}
 \usage{
 has.specials(x)
@@ -78,4 +78,3 @@ matrix of pseudo-observations, \code{\link{formula}} for
 extracting the \code{pim.formula} and \code{\link{penv}} for 
 extracting the pim environment.
 }
-

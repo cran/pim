@@ -26,4 +26,3 @@ can be used as a value for its argument \code{compare}.
 create.poset(n=10)
 create.poset('all',n=4)
 }
-

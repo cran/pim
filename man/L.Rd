@@ -2,8 +2,12 @@
 % Please edit documentation in R/LR.R
 \name{L}
 \alias{L}
-\alias{PP}
 \alias{R}
+\alias{PP}
+\alias{L}
+\alias{R}
+\alias{L}
+\alias{PP}
 \title{Specify the left hand and right hand side of an expression used in pims}
 \usage{
 L(x)
@@ -50,10 +54,10 @@ Note that this makes the functions behave fundamentally
 different from what you would expect R. The result of these
 functions depends on the context in which they are called.
 }
+
 \examples{
 \dontrun{
 pim(income~(L(foodexp) - R(foodexp)), data=Engeldata)
 L(1:10) # Gives a warning
 }
 }
-

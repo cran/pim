@@ -17,4 +17,3 @@ returns the vector with the poset vector applied to it.
 This function creates a poset function from a poset. The function is not
 exported and shouldn't be called by the user.
 }
-

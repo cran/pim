@@ -60,4 +60,3 @@ thesummary[,2:3]
 thesummary["Sex"]
 
 }
-

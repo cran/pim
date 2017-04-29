@@ -3,8 +3,8 @@
 \docType{methods}
 \name{new.pim.formula}
 \alias{new.pim.formula}
-\alias{new.pim.formula,formula,ANY-method}
 \alias{new.pim.formula,formula,pim.environment-method}
+\alias{new.pim.formula,formula,ANY-method}
 \title{Constructor for pim.formula}
 \usage{
 new.pim.formula(formula, data, ...)
@@ -65,4 +65,3 @@ Y <- response(FEVform)
 # Now pim.fit can do what it does
 res <- pim.fit(MM,Y, estim = "estimator.glm", penv=FEVenv)
 }
-

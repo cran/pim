@@ -2,10 +2,10 @@
 % Please edit documentation in R/nobs.R
 \docType{methods}
 \name{nobs,pim.environment-method}
-\alias{nobs,data.frame-method}
-\alias{nobs,matrix-method}
 \alias{nobs,pim.environment-method}
 \alias{nobs,pim.poset-method}
+\alias{nobs,matrix-method}
+\alias{nobs,data.frame-method}
 \title{Extract the number of observations}
 \usage{
 \S4method{nobs}{pim.environment}(object)
@@ -43,4 +43,3 @@ does the same as \code{\link{length}}.
 This package imports the generic \code{\link[stats]{nobs}} from the package
 \code{stats4}.
 }
-

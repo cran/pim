@@ -52,4 +52,3 @@ formula(themodel, orig = TRUE)
 \code{\link{pim.formula-class}} and \code{\link{pim-class}} for 
 more information on the classes.
 }
-

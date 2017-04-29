@@ -59,4 +59,3 @@ these components using the sandwich estimators.
 \code{\link{model.matrix}} for how to construct a valid model matrix
 for a pim, \code{\link{pim}} for the general user interface
 }
-

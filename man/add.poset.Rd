@@ -38,6 +38,7 @@ observations. This might or might not be your intention. If the poset
 you try to create contains indices that go beyond the number of
 observations, you will get errors.
 }
+
 \examples{
 
 data(DysData)
@@ -54,4 +55,3 @@ compare(DysenvAll)
 \code{\link{new.pim.poset}} for the possible values of the
 arguments \code{compare} and \code{nobs}.
 }
-

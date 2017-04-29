@@ -3,8 +3,8 @@
 \docType{methods}
 \name{vcov}
 \alias{vcov}
-\alias{vcov,list-method}
 \alias{vcov,pim-method}
+\alias{vcov,list-method}
 \title{Methods for vcov}
 \usage{
 vcov(object, ...)
@@ -32,4 +32,3 @@ vcov(Model)
 \seealso{
 \code{\link[stats]{vcov}} in the stats package.
 }
-

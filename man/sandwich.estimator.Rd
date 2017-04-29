@@ -33,4 +33,3 @@ The matrix of the sandwich estimator
 The functions described here all implement an estimator for
 the variance of the coefficients. This function is not exported.
 }
-

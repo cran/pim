@@ -2,8 +2,8 @@
 % Please edit documentation in R/pim.formula-class.R
 \docType{class}
 \name{pim.formula-class}
-\alias{pim.formula}
 \alias{pim.formula-class}
+\alias{pim.formula}
 \title{Class pim.formula}
 \description{
 This class contains information on the formula passed in 
@@ -63,6 +63,7 @@ formula is related (i.e. the environment containing possible
 \item{\code{has.intercept}}{a logical value indicating whether the formula has
 an explicit intercept (indicated by + 1)}
 }}
+
 \section{Note}{
  
 This class is not exported, so it can't be extended as for now. 

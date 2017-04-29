@@ -2,8 +2,8 @@
 % Please edit documentation in R/pim.environment-class.R
 \docType{class}
 \name{pim.environment-class}
-\alias{pim.environment}
 \alias{pim.environment-class}
+\alias{pim.environment}
 \title{The pim.environment class}
 \description{
 This S4 class inherits from the S3 class \code{\link{environment}}.
@@ -33,6 +33,7 @@ given by \code{\link{class}}.}
 \item{\code{is.complete}}{a logical value indicating whether or not the poset
 was added before.}
 }}
+
 \section{Note}{
  
 This class is not exported, so it can't be extended as for now. 

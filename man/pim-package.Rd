@@ -12,10 +12,18 @@ original code, please install the package pimold from R-Forge.
 You can install the old package using:
 }
 \details{
-\code{install.packages('pimold', repos = 'http://R-Forge.R-project.org')}
+\code{install.packages('pimold', repos = 'https://R-Forge.R-project.org')}
 }
 \references{
-\url{http://r-forge.r-project.org/projects/pim/}
+\url{https://r-forge.r-project.org/projects/pim/}
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/CenterForStatistics-UGent/pim}
+  \item Report bugs at \url{https://github.com/CenterForStatistics-UGent/pim/issues}
+}
+
 }
 \author{
 Joris Meys \email{Joris.Meys@UGent.be} Jan De Neve \email{Jan.DeNeve@UGent.be} original package and engine code by Nick Sabbe.

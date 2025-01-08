@@ -44,15 +44,15 @@
 #' @param method A vector of integers specifying which
 #' Barzilai-Borwein steplengths should be used in a consecutive
 #' manner. The methods will be used in the order specified.
-#' More information on the help page of \code{\link{BBsolve}}.
+#' More information on the help page of \code{\link[BB]{BBsolve}}.
 #' @param construct a function that creates the score function
-#' used by either \code{\link{nleqslv}} or
-#' \code{\link{BBsolve}} for numerical optimization. See Details.
+#' used by either \code{\link[nleqslv]{nleqslv}} or
+#' \code{\link[BB]{BBsolve}} for numerical optimization. See Details.
 #' The estimator \code{estimator.glm} doesn't allow
 #' for specification of your own score function.
 #' @param ... extra arguments passed down to the actual solver function. See details.
 #' @param control a list with extra controlling parameters for
-#' \code{BBsolve}. See the help page of \code{\link{BBsolve}} for
+#' \code{BBsolve}. See the help page of \code{\link[BB]{BBsolve}} for
 #' more information.
 #'
 #' @return a list with following elements:

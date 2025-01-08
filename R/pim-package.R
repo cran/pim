@@ -6,19 +6,18 @@
 #' original code, please install the package pimold from R-Forge.
 #' You can install the old package using:
 #'
-#' \code{install.packages('pimold', repos = 'http://R-Forge.R-project.org')}
+#' \code{install.packages('pimold', repos = 'https://R-Forge.R-project.org')}
 #'
 #' @name pim-package
 #' @aliases pim-package
-#' @docType package
 #' @author Joris Meys \email{Joris.Meys@@UGent.be} Jan De Neve \email{Jan.DeNeve@@UGent.be} original package and engine code by Nick Sabbe.
-#' @references \url{http://r-forge.r-project.org/projects/pim/}
+#' @references \url{https://r-forge.r-project.org/projects/pim/}
 #' @keywords package
 #' @importFrom stats4 nobs
 #' @importFrom stats dnorm glm.fit plogis pnorm printCoefmat qnorm
 #' @importFrom utils head
 #' @import methods
-NULL
+"_PACKAGE"
 
 # All things needed for S4 definitions.
 setOldClass("terms")

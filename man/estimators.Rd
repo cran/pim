@@ -43,8 +43,8 @@ link function is used to adapt the calculation depending on the
 link used in the fitting process.}
 
 \item{construct}{a function that creates the score function
-used by either \code{\link{nleqslv}} or
-\code{\link{BBsolve}} for numerical optimization. See Details.
+used by either \code{\link[nleqslv]{nleqslv}} or
+\code{\link[BB]{BBsolve}} for numerical optimization. See Details.
 The estimator \code{estimator.glm} doesn't allow
 for specification of your own score function.}
 
@@ -53,10 +53,10 @@ for specification of your own score function.}
 \item{method}{A vector of integers specifying which
 Barzilai-Borwein steplengths should be used in a consecutive
 manner. The methods will be used in the order specified.
-More information on the help page of \code{\link{BBsolve}}.}
+More information on the help page of \code{\link[BB]{BBsolve}}.}
 
 \item{control}{a list with extra controlling parameters for
-\code{BBsolve}. See the help page of \code{\link{BBsolve}} for
+\code{BBsolve}. See the help page of \code{\link[BB]{BBsolve}} for
 more information.}
 }
 \value{
